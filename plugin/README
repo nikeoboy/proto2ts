@@ -1,5 +1,5 @@
 @title protobuf 协议框架说明
-@author songxiangjun
+@author Nikeo
 @date 2023/12/05
 
 1、将publish.js拷贝到目录中 \node_modules\protobufjs\cli\lib\tsd-jsdoc
