@@ -1,0 +1,7 @@
+{
+  "name": "proto2ts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "protobufjs": "~6.9.0"
+  }
+}

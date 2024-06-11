@@ -1,0 +1,25 @@
+{
+  "nested": {
+    "message": {
+      "nested": {
+        "TestRequest": {
+          "fields": {
+            "userId": {
+              "type": "int32",
+              "id": 1
+            }
+          }
+        },
+        "TestReply": {
+          "fields": {
+            "infos": {
+              "rule": "repeated",
+              "type": "string",
+              "id": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

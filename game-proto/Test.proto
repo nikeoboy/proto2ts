@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package message;
+
+message TestRequest {
+    int32 userId = 1; //账号
+}
+
+message TestReply {
+    repeated string infos = 1; // 账号信息
+}
+
+

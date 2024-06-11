@@ -1,0 +1,21 @@
+@title protobuf 协议框架说明
+@author songxiangjun
+@date 2023/12/05
+
+1、将publish.js拷贝到目录中 \node_modules\protobufjs\cli\lib\tsd-jsdoc
+2、将pbjs.js、pbts.js拷贝到目录中 \node_modules\protobufjs\cli
+
+3、在WebStorm编辑器Terminal终端中输入 grunt proto 生成协议文件
+4、项目package.json配置说明
+...
+"project":{
+//协议定义目录
+"protoDirectory":"D:/client_reposity/h5-scheme/GameProto/dev-new",
+//打包的协议目录
+"jsonBundle":"bin/config/proto.json",
+//导出js协议文件（辅助生成proto.ts）
+"outJS":"build/proto.js",
+//项目ts协议文件（开发使用）
+"dts":"src/game/common/message/proto.ts"
+}
+...
